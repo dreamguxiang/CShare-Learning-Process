@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Program05
+﻿namespace Program05
 {
     class Program
     {
@@ -15,7 +13,6 @@ namespace Program05
             res1 = num1 > 0 & num2++ > 1;
             Console.WriteLine(res1);
             Console.WriteLine("num2 = "+num2);
-
             res2 = num2 > 0 && num3++ > 1;
             Console.WriteLine(res2);
             Console.WriteLine("num3 = "+num3);
